@@ -1,10 +1,11 @@
 # wdio-bugs
 Sample repo for demonstrating wdio issues for bugreporting
 
-Issues:
-1. Errors in before() are not handled gracefully and leaves selenium-standalone running.
+## Issues:
 
-```
+1. Errors in before() are not handled gracefully and leaves selenium-standalone running.
+ 
+ ```
 $ make google
 npm install
 npm WARN wdio-bugs@1.0.0 No repository field.
@@ -25,9 +26,8 @@ TypeError: Cannot set property 'state' of undefined
     at process.nextTick (internal/child_process.js:744:12)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)
 make: *** [google] Error 1
-
 ```
-
+ 
 2. waitforTimeout in wdio.conf.js not honored
 TBD
 
