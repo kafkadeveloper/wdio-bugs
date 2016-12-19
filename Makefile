@@ -1,6 +1,9 @@
 all:
 	./node_modules/.bin/wdio
 
+google: install
+	./node_modules/.bin/wdio --spec specs/google.js
+
 fruitshoppe: install
 	./node_modules/.bin/wdio --spec specs/fruitshoppe.js
 

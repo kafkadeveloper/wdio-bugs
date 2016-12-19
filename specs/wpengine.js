@@ -2,10 +2,6 @@ var utils = require("./utils.js")
 
 describe('WPEngine.com', function() {
 
-    before(function() {
-        utils.createOrg("11Kl", "wpengine");
-    });
-
     afterEach(function() {
         utils.printTestResults();
     });
