@@ -5,11 +5,11 @@
   "author": "Shauvik Roy Choudhary",
   "license": "ISC",
   "devDependencies": {
-    "wdio-concise-reporter": "0.0.3",
+    "wdio-concise-reporter": "0.1.2",
     "wdio-dot-reporter": "0.0.6",
     "wdio-mocha-framework": "^0.5.2",
     "wdio-selenium-standalone-service": "0.0.7",
-    "wdio-spec-reporter": "0.0.3",
+    "wdio-spec-reporter": "0.0.4",
     "webdriverio": "^4.3.0"
   }
 }
